@@ -50,3 +50,15 @@ body {
   transform: scale(1.05);
   transition: all 1s ease-in;
 }
+
+@media screen 
+  and (device-width: 375px) 
+  and (device-height: 375px) {
+
+}
+
+@media screen 
+  and (min-device-width: 1440px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
