@@ -10,6 +10,10 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+body, h1 {
+  font-size: 15px;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -49,6 +53,11 @@ body {
   color: whitesmoke;
   transform: scale(1.05);
   transition: all 1s ease-in;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen 
